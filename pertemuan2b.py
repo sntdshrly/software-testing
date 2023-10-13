@@ -38,10 +38,26 @@ def main():
     a2=11; b2=0
     # test case-3
     a3=12; b3=2
-    
+
+    print("Fungsi Asli")
+    print("Hasil :",Cek(a1,b1))
+    print("Hasil :",Cek(a2,b2))
+    print("Hasil :",Cek(a3,b3))
+
+    print("Mutant 1")
     print("Hasil :",CekMutant1(a1,b1))
+    print("Hasil :",CekMutant1(a2,b2))
+    print("Hasil :",CekMutant1(a3,b3))
+
+    print("Mutant 2")
     print("Hasil :",CekMutant2(a1,b1))
+    print("Hasil :",CekMutant2(a2,b2))
+    print("Hasil :",CekMutant2(a3,b3))
+
+    print("Mutant 3")
     print("Hasil :",CekMutant3(a1,b1))
+    print("Hasil :",CekMutant3(a2,b2))
+    print("Hasil :",CekMutant3(a3,b3))
 
     return 0
 
