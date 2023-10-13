@@ -1,2 +1,2 @@
 # Software Testing
-a set of codes during software testing class.
+A set of codes during software testing class.
