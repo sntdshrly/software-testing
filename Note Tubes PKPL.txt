@@ -1,0 +1,25 @@
+C:\Users\sntds\ems-app-automation-test\tests\test_scenarios
+
+
+.\Scripts\activate
+python -m pytest
+
+flake8 --ignore=E501,E271,E272,W602,W504 --exclude=.venv
+
+
+pytest tests\test_scenarios\neg_test_scenario_001.py
+
+py.test.exe — assets — verbose — html= test_selenium_webdriver-1.py tests\test_scenarios\neg_test_scenario_001.py
+
+
+pytest tests\test_scenarios\test_neg_scenario_001.py -v -s --html=specific_test_report.html
+
+Aplikasi “Employee Management System” berbasis Web
+https://github.com/milkom-maranatha-cicd/ems-app
+
+Source code pengujian otomatis untuk aplikasi EMS menggunakan Selenium Python
+https://github.com/milkom-maranatha-cicd/ems-app-automation-test
+
+
+admin@mail.com
+Test@12345
